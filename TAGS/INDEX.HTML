@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="All HTML tags example in one file">
+  <meta name="keywords" content="HTML, MERN, tags">
+  <meta name="author" content="Student">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>All HTML Tags Demo</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    table, th, td { border: 1px solid #000; border-collapse: collapse; }
+    th, td { padding: 6px; }
+  </style>
+
+  <script>
+    console.log("HTML All Tags Loaded");
+  </script>
+
+  <base href="/">
+</head>
+
+<body>
+
+<header>
+  <h1>Main Heading (h1)</h1>
+  <h2>Sub Heading (h2)</h2>
+</header>
+
+<nav>
+  <a href="#text">Text</a> |
+  <a href="#media">Media</a> |
+  <a href="#form">Form</a>
+</nav>
+
+<main>
+
+<section id="text">
+  <h3>Text & Formatting</h3>
+
+  <p>This is a <strong>strong</strong>, <b>bold</b>, <em>emphasized</em>,
+     <i>italic</i>, <u>underline</u>, <mark>marked</mark> text.</p>
+
+  <small>Small text</small><br>
+
+  H<sub>2</sub>O &nbsp; | &nbsp; X<sup>2</sup>
+
+  <hr>
+
+  <blockquote>
+    This is a blockquote example.
+  </blockquote>
+
+  <pre>
+Preformatted
+    Text
+        Example
+  </pre>
+
+  <code>
+    console.log("Code tag");
+  </code>
+</section>
+
+<section>
+  <h3>Lists</h3>
+
+  <ul>
+    <li>Unordered Item</li>
+  </ul>
+
+  <ol>
+    <li>Ordered Item</li>
+  </ol>
+
+  <dl>
+    <dt>HTML</dt>
+    <dd>Markup Language</dd>
+  </dl>
+</section>
+
+<section id="media">
+  <h3>Links & Media</h3>
+
+  <a href="https://example.com" target="_blank">External Link</a><br><br>
+
+  <img src="https://via.placeholder.com/150" alt="Sample Image">
+
+  <figure>
+    <img src="https://via.placeholder.com/100" alt="Figure Image">
+    <figcaption>Figure Caption</figcaption>
+  </figure>
+
+  <audio controls>
+    <source src="audio.mp3">
+  </audio>
+
+  <video controls width="200">
+    <source src="video.mp4">
+  </video>
+</section>
+
+<section>
+  <h3>Tables</h3>
+
+  <table>
+    <caption>Student Table</caption>
+
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Ali</td>
+        <td>20</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="2">Footer Row</td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+
+<section id="form">
+  <h3>Forms & Inputs</h3>
+
+  <form>
+    <fieldset>
+      <legend>User Info</legend>
+
+      <label>Name:</label>
+      <input type="text" placeholder="Enter name" required><br><br>
+
+      <label>Password:</label>
+      <input type="password"><br><br>
+
+      <label>Email:</label>
+      <input type="email"><br><br>
+
+      <label>Number:</label>
+      <input type="number"><br><br>
+
+      <label>Date:</label>
+      <input type="date"><br><br>
+
+      <label>File:</label>
+      <input type="file"><br><br>
+
+      <label>Checkbox:</label>
+      <input type="checkbox"><br><br>
+
+      <label>Radio:</label>
+      <input type="radio" name="r"><br><br>
+
+      <textarea placeholder="Message"></textarea><br><br>
+
+      <select>
+        <option>Select Option</option>
+      </select><br><br>
+
+      <input type="hidden" value="hiddenValue">
+
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </fieldset>
+  </form>
+</section>
+
+<aside>
+  <p>This is an aside section.</p>
+</aside>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 &amp; All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
